@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Project Twenty Five | Restaurant Website</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image" href="images/logo.png">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Dancing Spirit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Home Section -->
+    <div class="home-section">
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" id="logo"><img src="images/logo.png" alt="" width="30px">BUR
+                    <span>GER</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" id="first-child">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Burger</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Other
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
+                                style="background-color: #ffc800;">
+                                <li><a class="dropdown-item" href="#">Pizza</a></li>
+                                <li><a class="dropdown-item" href="#">Fries</a></li>
+                                <li><a class="dropdown-item" href="#">Fried Chicken</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <div class="icons">
+                            <i class="fa-regular fa-user"></i>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Home Content -->
+        <section class="home">
+            <div class="content">
+                <h1>Super Delicious
+                    <br> <span>Burger</span>
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, totam.</p>
+
+                <div id="btn">
+                    <button>Order Now <span>$100.50</span></button>
+                </div>
+            </div>
+            <div class="img">
+                <img src="images/burger.png" alt="">
+            </div>
+        </section>
+        <!-- Home Content -->
+    </div>
+    <!-- Home Section -->
+
+    <!-- top icons -->
+    <div class="container" id="top-icons">
+        <h1>OFFERS</h1>
+        <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+                <i><img src="images/offer1.png" alt=""></i>
+                <h3>Burger 50% off</h3>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <i><img src="images/offer2.png" alt=""></i>
+                <h3>Free Delivery</h3>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <i><img src="images/offer3.png" alt=""></i>
+                <h3>Burger Free Fries</h3>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <i><img src="images/offer4.png" alt=""></i>
+                <h3>Burger with Free Cold Drink</h3>
+            </div>
+        </div>
+    </div>
+    <!-- top icons -->
+
+    <!-- cards -->
+    <div class="container" id="cards">
+        <div class="row">
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/cards1.png" alt="">
+                    <div class="card-img-overlay">
+                        <h3>Hamburger</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, illo!</p>
+                        <button id="rn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/cards2.png" alt="">
+                    <div class="card-img-overlay">
+                        <h3>Pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, illo!</p>
+                        <button id="rn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/cards3.png" alt="">
+                    <div class="card-img-overlay">
+                        <h3>Italian Pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, illo!</p>
+                        <button id="rn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/cards4.png" alt="">
+                    <div class="card-img-overlay">
+                        <h3>Fried Chicken</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, illo!</p>
+                        <button id="rn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/cards5.png" alt="">
+                    <div class="card-img-overlay">
+                        <h3>Cheese Burger</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, illo!</p>
+                        <button id="rn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- cards -->
+
+    <!-- Burger -->
+    <div class="container" id="burger">
+        <h1>Delicious Burger</h1>
+        <div class="row" style="margin-top: 30px;">
+
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/b1.png" alt="">
+                    <div class="card-body">
+                        <h3>Tasty Burger</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h5>$10.50 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/b2.png" alt="">
+                    <div class="card-body">
+                        <h3>Onion Burger</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h5>$5.10 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/b3.png" alt="">
+                    <div class="card-body">
+                        <h3>Classic Burger</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h5>$3.20 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/b4.png" alt="">
+                    <div class="card-body">
+                        <h3>Best Burger</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h5>$1.50 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/b5.png" alt="">
+                    <div class="card-body">
+                        <h3>Cheese Burger</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h5>$1.50 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/b6.png" alt="">
+                    <div class="card-body">
+                        <h3>Tasty Burger</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h5>$10.50 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/b7.png" alt="">
+                    <div class="card-body">
+                        <h3>Tasty Burger</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h5>$10.50 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/b8.png" alt="">
+                    <div class="card-body">
+                        <h3>Tasty Burger</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h5>$10.50 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Burger -->
+
+    <!-- Banner -->
+    <div class="banner">
+        <h3>Other Product</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, quam.</p>
+        <button id="btnorder">Order Now</button>
+    </div>
+    <!-- Banner -->
+
+    <!-- Top Cards -->
+    <div class="container" id="top-cards">
+        <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/topcard1.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/topcard2.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/topcard3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Cards -->
+
+    <!-- burger -->
+    <div class="container" id="burger">
+        <div class="row" style="margin-top: 30px;">
+
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/p1.png" alt="">
+                    <div class="card-body">
+                        <h3>Italian Pizza</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h5>$6.50 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/p2.png" alt="">
+                    <div class="card-body">
+                        <h3>Pried Chicken</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h5>$15.10 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/p3.png" alt="">
+                    <div class="card-body">
+                        <h3>Tasty Fries</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h5>$3.20 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/p4.png" alt="">
+                    <div class="card-body">
+                        <h3>Pizza Slice</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h5>$1.50 <span><i class="fa-solid fa-basket-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- burger -->
+
+    <!-- About -->
+    <div class="container" id="about">
+        <h1>ABOUT</h1>
+        <div class="row">
+            <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                    <img src="images/about.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 py-3 py-md-0">
+                <h2>Delicious Burger</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, omnis officiis ab itaque dolores
+                    deleniti quasi, similique vel possimus mollitia ipsum id! Totam adipisci beatae consequatur nostrum
+                    molestias iure dolorum! Quaerat, officiis obcaecati! Voluptate, facilis. Itaque ipsam totam
+                    blanditiis fugiat?</p>
+                <div id="readmorebtn"><button>Read More...</button></div>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+
+    <!-- Contact -->
+    <div class="container">
+        <h2 id="h2">CONTACT</h2>
+    </div>
+
+    <div class="container" id="contact">
+        <div class="row">
+            <div class="col-md-6 py-3 py-md-0">
+                <h3>CONTACT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis magnam debitis, sunt corrupti ipsa
+                    optio!</p>
+                <input type="text" placeholder="Name"><br>
+                <input type="email" placeholder="Email"><br>
+                <input type="number" placeholder="Phone"><br>
+                <button id="btnmessage">Send</button>
+            </div>
+
+            <div class="col-md-6 py-3 py-md-0">
+                <h3>INFO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, commodi.</p>
+                <i class="fas fa-phone"> <span>+0000000000000</span></i><br>
+                <i class="fa-solid fa-envelope"> <span>example@gmail.com</span></i><br>
+                <i class="fa-solid fa-location-dot"> <span>Cileunyi Wetan, Kab. Bandung</span></i><br>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+
+    <!-- footer -->
+    <footer id="footer" style="margin-top: 50px;">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <a class="navbar-brand" href="#" id="logo2"><img src="images/logo.png" alt=""
+                                width="30px">Burger</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequatur.</p>
+                        <p>
+                            Cileunyi Wetan <br>
+                            Cileunyi <br>
+                            Kab. Bandung <br>
+                        </p>
+                        <strong><i class="fa-solid fa-phone"></i> Phone: <strong>+00000000</strong></strong> <br>
+                        <strong><i class="fa-solid fa-envelope"></i> Email: <strong>example@gmail.com</strong></strong>
+                        <br>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><a href="#">Pizza</a></li>
+                            <li><a href="#">Fired Chicken</a></li>
+                            <li><a href="#">Fries</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Social Links</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quisquam?</p>
+                        <div class="social-links mt-3">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <hr>
+    <div class="container py-4">
+        <div class="copyright">
+            &copy; copyright
+        </div>
+        <div class="credits">
+            Designed by Habbaza
+        </div>
+    </div>
+    <!-- footer -->
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
